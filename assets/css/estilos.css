@@ -11,10 +11,44 @@ body{
 
 }
 
-.iniciop{
+.linea-prin{
+  width: 30%;
+  height: 2px;
+  margin-bottom: 1px;
+  border-style: none;
+  background: rgb(167,127,194);
+background: linear-gradient(90deg, rgba(167,127,194,1) 0%, rgba(64,154,185,1) 13%, rgba(82,152,109,1) 24%, rgba(29,253,32,1) 29%, rgba(58,152,190,1) 55%, rgba(85,174,64,1) 69%, rgba(213,93,93,1) 84%, rgba(129,112,89,1) 100%, rgba(59,139,212,0.9836309523809523) 100%, rgba(125,154,181,1) 100%, rgba(59,139,212,1) 109%, rgba(59,139,212,0.9836309523809523) 127%, rgba(59,139,212,0.9836309523809523) 131%, rgba(59,139,212,0.9836309523809523) 133%, rgba(59,139,212,0.9836309523809523) 164%, rgba(59,139,212,1) 196%, rgba(59,139,212,0.9836309523809523) 200%);
+}
+
+.inicio-p{
   color: white;
   font-style: italic;
 
+}
+
+.menu{
+  width: 25%;
+}
+
+.x{
+  width: 4%;
+}
+
+#encabezado{
+  background-color: rgb(5, 5, 5);
+  width: 100% ;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.detalles{
+  display: flex;
+  justify-content: center;
+}
+
+.p2{
+  font-style: italic;
+  color: white;
 }
 
 p{
@@ -27,13 +61,13 @@ p{
  
   
 }
-.first-box{
+.box{
  
   justify-content: center;
   align-items: center;
 }
 
-.titulo-img{
+.titulo-imagen1{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -207,4 +241,11 @@ summary{
   display: flex;
   justify-content: flex-end;
  align-items: flex-end; 
+}
+
+@media screen and (max-width:600px){
+  #Contenedor{
+   flex-direction: column;
+
+  }
 }
