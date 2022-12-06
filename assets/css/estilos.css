@@ -29,20 +29,21 @@ background: linear-gradient(90deg, rgba(167,127,194,1) 0%, rgba(64,154,185,1) 13
 .menu1{
   width: 5%;
   position: relative;
-  left: 98%;
+  left: 92%;
  
 }
 
 .x{
   width: 4%;
+  position: relative;
+  left: 92%;
 }
 
 #encabezado{
   background-color: rgb(5, 5, 5);
   padding: 5%;
   width: 100%;
-  display: flex;
-  justify-content: end;
+  
 }
 
 .detalles{
@@ -53,7 +54,7 @@ background: linear-gradient(90deg, rgba(167,127,194,1) 0%, rgba(64,154,185,1) 13
 .p2{
   font-style: italic;
   color: white;
- text-align: center; 
+ text-align: left; 
 
 
 }
@@ -81,7 +82,7 @@ p{
   justify-content: center;
 }
 
-#darwin{
+#h1-1{
   margin-top: 1.5px;
 }
 
@@ -239,7 +240,7 @@ summary{
  
 }
 
-.final-img2{
+.fin-img2{
   width: 6%;
  
 }
@@ -257,9 +258,95 @@ summary{
 no hace ninghun cambio de posecionar ala derecha igual que menu y al momento de tocar
  la imagen menu  se pocesiona al centro
 */
-@media screen and (max-width:600px){
-  #Contenedor{
-   flex-direction: column;
+@media screen and (min-width:600px){
+  body{
+    background: rgb(20,3,11);
+    background: -moz-linear-gradient(90deg, rgba(20,3,11,1) 23%, rgba(174,234,238,1) 49%, rgba(231,175,204,1) 59%, rgba(216,177,209,1) 62%, rgba(52,4,52,1) 75%, rgba(43,33,47,1) 95%);
+    background: -webkit-linear-gradient(90deg, rgba(20,3,11,1) 23%, rgba(174,234,238,1) 49%, rgba(231,175,204,1) 59%, rgba(216,177,209,1) 62%, rgba(52,4,52,1) 75%, rgba(43,33,47,1) 95%);
+    background: linear-gradient(90deg, rgba(20,3,11,1) 23%, rgba(174,234,238,1) 49%, rgba(231,175,204,1) 59%, rgba(216,177,209,1) 62%, rgba(52,4,52,1) 75%, rgba(43,33,47,1) 95%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#14030b",endColorstr="#2b212f",GradientType=1);
+    padding: 7%;
+  }
+  
+  .inicio{
+    background: -webkit-linear-gradient(rgb(18, 19, 18), rgb(112, 5, 233),rgb(117, 119, 3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 1%;
 
   }
+
+  .linea-prin{
+    width: 30%;
+    height: 2px;
+    background: rgb(151,7,180);
+    background: -moz-linear-gradient(90deg, rgba(151,7,180,1) 0%, rgba(204,111,198,1) 0%, rgba(218,229,99,1) 13%, rgba(237,84,242,1) 26%, rgba(127,11,11,1) 33%, rgba(178,220,163,1) 40%, rgba(207,207,207,0.4593545751633987) 40%, rgba(210,122,200,1) 40%, rgba(195,227,154,1) 41%, rgba(231,193,122,1) 42%, rgba(161,173,231,1) 55%, rgba(216,134,202,1) 56%, rgba(224,148,204,1) 62%, rgba(165,225,233,1) 66%, rgba(234,167,208,1) 76%, rgba(226,187,201,1) 78%, rgba(13,48,125,1) 83%, rgba(173,235,222,1) 88%, rgba(234,185,161,1) 100%, rgba(226,207,53,0.10314542483660127) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(151,7,180,1) 0%, rgba(204,111,198,1) 0%, rgba(218,229,99,1) 13%, rgba(237,84,242,1) 26%, rgba(127,11,11,1) 33%, rgba(178,220,163,1) 40%, rgba(207,207,207,0.4593545751633987) 40%, rgba(210,122,200,1) 40%, rgba(195,227,154,1) 41%, rgba(231,193,122,1) 42%, rgba(161,173,231,1) 55%, rgba(216,134,202,1) 56%, rgba(224,148,204,1) 62%, rgba(165,225,233,1) 66%, rgba(234,167,208,1) 76%, rgba(226,187,201,1) 78%, rgba(13,48,125,1) 83%, rgba(173,235,222,1) 88%, rgba(234,185,161,1) 100%, rgba(226,207,53,0.10314542483660127) 100%);
+    background: linear-gradient(90deg, rgba(151,7,180,1) 0%, rgba(204,111,198,1) 0%, rgba(218,229,99,1) 13%, rgba(237,84,242,1) 26%, rgba(127,11,11,1) 33%, rgba(178,220,163,1) 40%, rgba(207,207,207,0.4593545751633987) 40%, rgba(210,122,200,1) 40%, rgba(195,227,154,1) 41%, rgba(231,193,122,1) 42%, rgba(161,173,231,1) 55%, rgba(216,134,202,1) 56%, rgba(224,148,204,1) 62%, rgba(165,225,233,1) 66%, rgba(234,167,208,1) 76%, rgba(226,187,201,1) 78%, rgba(13,48,125,1) 83%, rgba(173,235,222,1) 88%, rgba(234,185,161,1) 100%, rgba(226,207,53,0.10314542483660127) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9707b4",endColorstr="#e2cf35",GradientType=1);
+  }
+
+  .inicio-p{
+    color: rgb(236, 231, 235);
+    font-style: oblique;
 }
+
+.principio{
+  background-color: #72726f;
+  padding: 2%;
+}
+
+.caja1{
+flex-direction: row;
+}
+
+#h1-1{
+  margin-top: 1.5px;
+}
+
+#encabezado{
+  padding: 5%;
+  width: 100%;
+  background: rgb(151,7,180);
+  background: -moz-linear-gradient(90deg, rgba(151,7,180,1) 0%, rgba(204,111,198,1) 28%, rgba(99,227,229,1) 39%, rgba(20,233,205,1) 39%, rgba(207,207,207,0.4593545751633987) 40%, rgba(210,122,200,1) 40%, rgba(195,227,154,1) 41%, rgba(231,193,122,1) 42%, rgba(231,161,206,1) 47%, rgba(216,134,202,1) 56%, rgba(224,148,204,1) 62%, rgba(233,165,207,1) 70%, rgba(234,167,208,1) 76%, rgba(237,177,197,1) 76%, rgba(235,182,173,1) 83%, rgba(234,185,161,1) 86%, rgba(226,207,53,0.10314542483660127) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(151,7,180,1) 0%, rgba(204,111,198,1) 28%, rgba(99,227,229,1) 39%, rgba(20,233,205,1) 39%, rgba(207,207,207,0.4593545751633987) 40%, rgba(210,122,200,1) 40%, rgba(195,227,154,1) 41%, rgba(231,193,122,1) 42%, rgba(231,161,206,1) 47%, rgba(216,134,202,1) 56%, rgba(224,148,204,1) 62%, rgba(233,165,207,1) 70%, rgba(234,167,208,1) 76%, rgba(237,177,197,1) 76%, rgba(235,182,173,1) 83%, rgba(234,185,161,1) 86%, rgba(226,207,53,0.10314542483660127) 100%);
+  background: linear-gradient(90deg, rgba(151,7,180,1) 0%, rgba(204,111,198,1) 28%, rgba(99,227,229,1) 39%, rgba(20,233,205,1) 39%, rgba(207,207,207,0.4593545751633987) 40%, rgba(210,122,200,1) 40%, rgba(195,227,154,1) 41%, rgba(231,193,122,1) 42%, rgba(231,161,206,1) 47%, rgba(216,134,202,1) 56%, rgba(224,148,204,1) 62%, rgba(233,165,207,1) 70%, rgba(234,167,208,1) 76%, rgba(237,177,197,1) 76%, rgba(235,182,173,1) 83%, rgba(234,185,161,1) 86%, rgba(226,207,53,0.10314542483660127) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9707b4",endColorstr="#e2cf35",GradientType=1);
+}
+
+.art{
+  display: flex;
+  align-items: center;
+}
+
+p{
+  font-style: italic;
+  font-size: small;
+}
+
+
+.aristoteles{
+  width: 50%;
+  height: 80%;
+  border-radius: 35%;
+}
+
+.img1{
+  width: 50%;
+  height: 80%;
+  border-radius: 35%;
+
+}
+
+.principio-tablet{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+}
+
+@media screen and (min-width:1200px)
